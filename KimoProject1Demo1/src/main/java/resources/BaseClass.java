@@ -16,6 +16,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
@@ -32,17 +33,20 @@ import kimoProject1.utility.ExtentManager;
 public class BaseClass {
 
 	public static Properties prop;
+	public static ThreadLocal<RemoteWebDriver> driver1 = new ThreadLocal<>();
 //	public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 	//public static WebDriver getDriver() {
 		// Get Driver from threadLocalmap
 		//return driver.get();
 	//}
 public static WebDriver driver;
+
 	
 	@BeforeSuite(groups = {"Smoke","Sanity","Regression"})
 	public void beforeSuite() {
 		ExtentManager.setExtent();
 		DOMConfigurator.configure("log4j.xml");
+		
 }
 
 	

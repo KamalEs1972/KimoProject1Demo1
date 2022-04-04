@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowser" parallel="tests" thread-count="6">
+	<listeners>
+		<listener class-name="kimoProject1.utility.ListenerClass"/>
+	</listeners>
+	<!-- <test name="ChromeTest">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testCases.ContactPageTest"/>
+		</classes>
+	</test> -->
+
+	<test name="FirefoxTest">
+		<parameter name="browser" value="Firefox"></parameter>
+		<classes>
+			<class name="testCases.ContactPageTest"/>
+		</classes>
+	</test>
+
+	<test name="IETest">
+		<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<class name="testCases.HomePageTest"/>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
