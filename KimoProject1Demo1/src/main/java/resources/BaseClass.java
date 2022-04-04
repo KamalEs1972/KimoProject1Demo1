@@ -3,6 +3,7 @@ package resources;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.sql.Driver;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -13,6 +14,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -91,23 +93,24 @@ if(browserName.equals("chrome"))
 		//execute in chrome driver
 	
 }
-else if (browserName.equals("firefox"))
+	else if (browserName.equals("firefox"))
 {
 	//System.setProperty("webdriver.gecko.driver", "E:\\QE Automation\\Drivers\\geckodriver.exe");
 	WebDriverManager.firefoxdriver().setup();
 		//driver.set(new FirefoxDriver());
 	 driver= new FirefoxDriver();
 	//firefox code
-}
-
-
-else if (browserName.equals("IE"))
+}   
+	else if (browserName.equalsIgnoreCase("Edge")) 
+{
+	WebDriverManager.edgedriver().setup();
+	driver = new EdgeDriver();
 //	WebDriverManager.iedriver().setup();
 	//driver.set(new InternetExplorerDriver());
 	//driver=new InternetExplorerDriver();
-{
+
 //	IE code
-}
+
 		driver.manage().window().maximize();
 		actionDrivers.Action.implicitWait(driver, 10);
 		actionDrivers.Action.pageLoadTimeOut(driver, 30);
@@ -126,6 +129,7 @@ else if (browserName.equals("IE"))
 //		getDriver().get(prop.getProperty("url"));
 		return driver;
 	}
+return null; }
 //	@AfterSuite
 //	public void afterSuite() {
 //		ExtentManager.endReport();
@@ -149,4 +153,4 @@ public void tearDown() {
 		ExtentManager.endReport();
 	}
 
-	}
+}
