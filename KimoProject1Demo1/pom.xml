@@ -83,10 +83,10 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<!-- <systemPropertyVariables>
+					<systemPropertyVariables>
 					<executionBrowser>${browser}</executionBrowser>
 						<appURL>${url}</appURL>
-					</systemPropertyVariables> -->
+					</systemPropertyVariables>
 				</configuration>
       </plugin>
   
