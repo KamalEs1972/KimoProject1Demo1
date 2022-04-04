@@ -74,8 +74,8 @@ public static WebDriver driver;
 {
 	
  prop= new Properties();
-FileInputStream fis=new FileInputStream("E:\\QE Automation\\CoreJava1\\KimoProject1Demo1\\Configuration\\Config.properties");
-
+FileInputStream fis=new FileInputStream(("user.dir") + "Configuration\\config.properties");
+//System.getProperty("user.dir") + "\\Configuration\\config.properties");
 prop.load(fis);
 String browserName=prop.getProperty("browser");
 System.out.println(browserName);
