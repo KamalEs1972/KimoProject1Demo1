@@ -110,7 +110,7 @@ if(browserName.equals("chrome"))
 	//driver=new InternetExplorerDriver();
 
 //	IE code
-
+}
 		driver.manage().window().maximize();
 		actionDrivers.Action.implicitWait(driver, 10);
 		actionDrivers.Action.pageLoadTimeOut(driver, 30);
@@ -129,7 +129,7 @@ if(browserName.equals("chrome"))
 //		getDriver().get(prop.getProperty("url"));
 		return driver;
 	}
-return null; }
+
 //	@AfterSuite
 //	public void afterSuite() {
 //		ExtentManager.endReport();

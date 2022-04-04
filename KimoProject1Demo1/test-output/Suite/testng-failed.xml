@@ -4,17 +4,22 @@
   <listeners>
     <listener class-name="kimoProject1.utility.ListenerClass"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Regression(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testCases.HomePageTest">
+      <class name="testCases.ContactPageTest">
         <methods>
           <include name="afterSuite"/>
-          <include name="verifyLogo"/>
           <include name="beforeSuite"/>
           <include name="tearDown"/>
+          <include name="enterInfos" invocation-numbers="0 1"/>
           <include name="initializeDriver"/>
         </methods>
-      </class> <!-- testCases.HomePageTest -->
+      </class> <!-- testCases.ContactPageTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Regression(failed) -->
 </suite> <!-- Failed suite [Suite] -->

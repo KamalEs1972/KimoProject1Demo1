@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-04T11:26:37 EDT" name="Suite" finished-at="2022-04-04T11:26:47 EDT" duration-ms="9813">
+  <suite started-at="2022-04-04T14:17:54 EDT" name="Suite" finished-at="2022-04-04T14:18:08 EDT" duration-ms="13668">
     <groups>
       <group name="Smoke">
-        <method signature="HomePageTest.verifyLogo()[pri:0, instance:testCases.HomePageTest@7205765b]" name="verifyLogo" class="testCases.HomePageTest"/>
+        <method signature="HomePageTest.verifyLogo()[pri:0, instance:testCases.HomePageTest@20ccf40b]" name="verifyLogo" class="testCases.HomePageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-04-04T11:26:37 EDT" name="Smoke" finished-at="2022-04-04T11:26:47 EDT" duration-ms="9813">
+    <test started-at="2022-04-04T14:17:54 EDT" name="Smoke" finished-at="2022-04-04T14:18:08 EDT" duration-ms="13668">
       <class name="testCases.HomePageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.HomePageTest@7205765b]" started-at="2022-04-04T11:26:37 EDT" name="beforeSuite" finished-at="2022-04-04T11:26:37 EDT" duration-ms="348" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.HomePageTest@20ccf40b]" started-at="2022-04-04T14:17:54 EDT" name="beforeSuite" finished-at="2022-04-04T14:17:54 EDT" duration-ms="368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:testCases.HomePageTest@7205765b]" started-at="2022-04-04T11:26:37 EDT" name="initializeDriver" finished-at="2022-04-04T11:26:45 EDT" duration-ms="7483" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:testCases.HomePageTest@20ccf40b]" started-at="2022-04-04T14:17:54 EDT" name="initializeDriver" finished-at="2022-04-04T14:18:04 EDT" duration-ms="9924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method signature="verifyLogo()[pri:0, instance:testCases.HomePageTest@7205765b]" started-at="2022-04-04T11:26:45 EDT" name="verifyLogo" finished-at="2022-04-04T11:26:46 EDT" duration-ms="1322" status="PASS">
+        <test-method signature="verifyLogo()[pri:0, instance:testCases.HomePageTest@20ccf40b]" started-at="2022-04-04T14:18:04 EDT" name="verifyLogo" finished-at="2022-04-04T14:18:07 EDT" duration-ms="2826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.HomePageTest@7205765b]" started-at="2022-04-04T11:26:46 EDT" name="tearDown" finished-at="2022-04-04T11:26:47 EDT" duration-ms="936" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.HomePageTest@20ccf40b]" started-at="2022-04-04T14:18:07 EDT" name="tearDown" finished-at="2022-04-04T14:18:08 EDT" duration-ms="858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.HomePageTest@7205765b]" started-at="2022-04-04T11:26:47 EDT" name="afterSuite" finished-at="2022-04-04T11:26:48 EDT" duration-ms="470" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.HomePageTest@20ccf40b]" started-at="2022-04-04T14:18:08 EDT" name="afterSuite" finished-at="2022-04-04T14:18:08 EDT" duration-ms="521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
