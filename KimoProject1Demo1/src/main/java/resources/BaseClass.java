@@ -74,7 +74,8 @@ public static WebDriver driver;
 {
 	
  prop= new Properties();
-FileInputStream fis=new FileInputStream(("user.dir") + "Configuration\\config.properties");
+FileInputStream fis=new FileInputStream(
+		System.getProperty("user.dir") + "\\Configuration\\config.properties");
 //System.getProperty("user.dir") + "\\Configuration\\config.properties");
 prop.load(fis);
 String browserName=prop.getProperty("browser");
