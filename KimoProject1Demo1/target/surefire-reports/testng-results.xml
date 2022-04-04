@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-04T11:41:52 EDT" name="Suite" finished-at="2022-04-04T11:42:07 EDT" duration-ms="14664">
+    <groups>
+      <group name="Regression">
+        <method signature="ContactPageTest.enterInfos(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.ContactPageTest@302552ec]" name="enterInfos" class="testCases.ContactPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="HomePageTest.verifyLogo()[pri:0, instance:testCases.HomePageTest@3d285d7e]" name="verifyLogo" class="testCases.HomePageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-04-04T11:41:52 EDT" name="Test" finished-at="2022-04-04T11:42:07 EDT" duration-ms="14664">
+      <class name="testCases.ContactPageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.ContactPageTest@302552ec]" started-at="2022-04-04T11:41:52 EDT" name="beforeSuite" finished-at="2022-04-04T11:41:52 EDT" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:testCases.ContactPageTest@302552ec]" started-at="2022-04-04T11:41:52 EDT" name="initializeDriver" finished-at="2022-04-04T11:42:00 EDT" duration-ms="7690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="enterInfos(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.ContactPageTest@302552ec]" started-at="2022-04-04T11:42:01 EDT" name="enterInfos" data-provider="credentials" finished-at="2022-04-04T11:42:03 EDT" duration-ms="2423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kamal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Essalhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kamal@yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ test1 is test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInfos -->
+        <test-method signature="enterInfos(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.ContactPageTest@302552ec]" started-at="2022-04-04T11:42:03 EDT" name="enterInfos" data-provider="credentials" finished-at="2022-04-04T11:42:05 EDT" duration-ms="1817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Essalhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Rana@gmil.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test2 is test2 ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInfos -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ContactPageTest@302552ec]" started-at="2022-04-04T11:42:06 EDT" name="tearDown" finished-at="2022-04-04T11:42:07 EDT" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.ContactPageTest@302552ec]" started-at="2022-04-04T11:42:07 EDT" name="afterSuite" finished-at="2022-04-04T11:42:08 EDT" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.ContactPageTest -->
+      <class name="testCases.HomePageTest">
+        <test-method signature="verifyLogo()[pri:0, instance:testCases.HomePageTest@3d285d7e]" started-at="2022-04-04T11:42:05 EDT" name="verifyLogo" finished-at="2022-04-04T11:42:06 EDT" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+      </class> <!-- testCases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
